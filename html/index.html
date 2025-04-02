@@ -1,0 +1,163 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.HTML/css/project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <title>Main Page</title>
+</head>
+<body>
+    <main class="page">
+        <header>
+            <menu>
+                  <div class="logo"><h1>វិឡា</h1> </div>
+                      <label for="bar" class="fa-solid fa-bars"></label>
+                      <input type="checkbox" id="bar" />
+                  <ul>
+                      <li><a href="#">ទំព័រដើម</a></li>
+                      <li><a href="#">គ្រឿងបរិក្ខារ</a></li>
+                      <li><a href="#">ពណ៏នាបរិក្ខារ</a></li>
+                      <li><a href="#">ទំនាក់ទំនង</a></li>
+                      <li><a href="#"><i class="fa-solid fa-cart-arrow-down"></i> &emsp; &emsp; កំណត់ថ្ងៃ​​​​​​ ណាត់ជួប</a></li>
+                                      
+                  </ul>
+            </menu>
+            
+        </header>
+          <aside>
+            <section id="slide1" class="slidebar">
+                <div class="content">
+                    <button>Toronto ,
+                        <span style="color: orangered;">canada</span>
+                    </button>
+                   <h1>HURRY UP! <br> GET THE BEST <br> VILA FOR YOU</h1>
+                </div>
+                <div class="group_btn">
+                      <a href="#slide3"><button><i class="fa-solid fa-angle-left"></i></button></a>
+                       <a href="#slide2"><button><i class="fa-solid fa-angle-right"></i></button></a>
+                </div>
+            </section>
+            <section id="slide2" class="slidebar">
+                <div class="content">
+                    <button>Toronto ,
+                        <span style="color: orangered;">canada</span>
+                    </button>
+                   <h1>HURRY UP! <br> GET THE BEST <br> VILA FOR YOU</h1>
+                </div>
+                <div class="group_btn">
+                      <a href="#slide1"><button><i class="fa-solid fa-angle-left"></i></button></a>
+                       <a href="#slide3"><button><i class="fa-solid fa-angle-right"></i></button></a>
+                </div>
+            </section>
+            <section id="slide3" class="slidebar">
+                <div class="content">
+                    <button>Toronto ,
+                        <span style="color: orangered;">canada</span>
+                    </button>
+                   <h1>HURRY UP! <br> GET THE BEST <br> VILA FOR YOU</h1>
+                </div>
+                <div class="group_btn">
+                      <a href="#slide2"><button><i class="fa-solid fa-angle-left"></i></button></a>
+                       <a href="#slide1"><button><i class="fa-solid fa-angle-right"></i></button></a>
+                </div>
+          </aside>
+        </section>
+        <section class="Best_Appartment" style="margin-top: 50px;">
+            <div class="Content_Appartment_right">
+                <img src="img/featured.jpg" alt="">
+               <div class="featured-icon">
+                 <img src="img/featured-icon.png" alt="">
+               </div>
+            </div>
+             <div class="Content_Appartment_center">
+               <h3>| featured</h3>
+               <h1>Best Appartment <br> & Sea view</h1>
+               <div class="group-text">
+                <div class="group-check-box">
+                   <input id="BestToggler" type="checkbox">
+                   <label for="BestToggler">Best useful links ?</label><br>
+                   <div class="content-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, at.</div>
+                </div>
+                <div class="group-check-box">
+                    <input id="DolorToggler" type="checkbox">
+                    <label for="DolorToggler">Best useful links ?</label><br>
+                    <div class="content-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, at.</div>
+                 </div>
+                 <div class="group-check-box">
+                    <input id="almesitToggler" type="checkbox">
+                    <label for="almesitToggler">Best useful links ?</label><br>
+                    <div class="content-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, at.</div>
+                 </div>
+            </div>    
+            </div>
+                  <div class="Content_Appartment_left">
+                    <slot class="slot">
+                         <img src="img/icon1.png" alt="">                  
+                        <div class="txt"> 
+                          <h1>Payment</h1>
+                          <p>Payment Process</p>
+                        </div>
+                    </slot>
+                      <center><hr size="1" color="gray" width="70%"></center>
+                         <slot class="slot">
+                          <img src="img/icon2.png" alt="">                  
+                           <div class="txt"> 
+                              <h1>Payment</h1>
+                              <p>Payment Process</p>
+                           </div>
+                        </slot>
+                      <center><hr size="1" color="gray" width="70%"></center>
+                      <slot class="slot">
+                        <img src="img/info-icon-03.png" alt="">                  
+                           <div class="txt"> 
+                              <h1>Payment</h1>
+                              <p>Payment Process</p>
+                           </div>
+                      </slot>
+                      <center><hr size="1" color="gray" width="70%"></center>
+                      <slot class="slot">
+                         <img src="img/info-icon-04.png" alt="">                  
+                          <div class="txt"> 
+                              <h1>Payment</h1>
+                             <p>Payment Process</p>
+                          </div>
+                      </slot>
+                </div>
+        </section>
+        <section class="Feeling">
+            <div class="txt">
+                <h3>| Video View</h3>
+                <h2>Get Closer View & Different Feeling</h2>
+            </div>
+            <img src="img/video-frame.jpg" alt="" >
+            <div class="box">
+                <div class="video-content">
+                   <a href="https://www.youtube.com"> <i class="fa-solid fa-play"></i></a>
+                </div>
+             </div>
+        </section>
+        <section class="content-years">
+            <div class="content1">
+                <div class="left"> <h1>34</h1></div>
+                <div class="right"> 
+                    <p>Buildings
+                        finished now</p>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="content2">
+                <div class="center"><h1>12</h1></div>
+                <div class="center"> <p> Years
+                    Experience</p></div>
+                <div class="circle"></div>
+            </div>
+            <div class="content3">
+                <div class="right"><h1>24</h1></div>
+                <div class="right"> <p>  Awwards
+                    Won 2023</p></div>
+                <div class="circle"></div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
