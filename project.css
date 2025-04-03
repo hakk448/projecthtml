@@ -112,7 +112,7 @@ aside{
      display: grid;
      place-items: center;
      background-color: #f35535;
-     background-image: url(/img/banner-01.jpg);
+     background-image: url(img/banner-01.jpg);
      background-size: cover;
  }
  section>.content{
@@ -159,15 +159,15 @@ aside{
     transition: all 0.4s ease-in-out;
  }
  #slide1{
-    background-image: url(/img/banner-01.jpg);
+    background-image: url(img/banner-01.jpg);
     background-size: cover;
  }
  #slide2{
-    background-image:url(/img/484262303_997137161909274_6853495355210109523_n.jpg) ;
+    background-image:url(img/484262303_997137161909274_6853495355210109523_n.jpg) ;
     background-size: cover;
  }
  #slide3{
-    background-image:url(/img/484256667_546356867910698_2647432167150729860_n.jpg) ;
+    background-image:url(img/484256667_546356867910698_2647432167150729860_n.jpg) ;
     background-size: cover;
  }
  :target{
@@ -430,7 +430,7 @@ hr{
         height: 90vh;
         color: aliceblue;
         object-fit: cover;
-        background-image: url(/img/video-bg.jpg);
+        background-image: url(img/video-bg.jpg);
         background-repeat: no-repeat;
         text-align: center;
         position: relative;
@@ -514,7 +514,7 @@ hr{
     height: 90vh;
     color: aliceblue;
     object-fit: cover;
-    background-image: url(/img/video-bg.jpg);
+    background-image: url(img/video-bg.jpg);
     background-repeat: no-repeat;
     text-align: center;
     position: relative;
